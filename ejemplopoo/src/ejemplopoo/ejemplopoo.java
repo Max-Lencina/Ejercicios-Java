@@ -12,9 +12,7 @@ public class ejemplopoo {
         System.out.println(auto2.toString());
         System.out.println(auto1.toString());
         
-        
-        
-         
+          
        /*auto2.encender();
        auto2.acelerar(60);
        auto2.frenar(30);
