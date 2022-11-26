@@ -9,10 +9,38 @@ public class ejemplopoo {
         Auto auto1 = new Auto();
         Auto auto2 = new Auto(1, "AA111JO", 5, "rojo", true);  
         
-       auto2.encender();
+        System.out.println(auto2.toString());
+        System.out.println(auto1.toString());
+        
+        
+        
+         
+       /*auto2.encender();
        auto2.acelerar(60);
        auto2.frenar(30);
-       auto2.apagar();
+       auto2.apagar();*/
+       
+       /*System.out.println("El valor de la id es " + auto2.getId());
+       auto2.setId(35000);
+       System.out.println("El nuevo valor de la id es " + auto2.getId());*/
+       
+       /*System.out.println("El valor de la id es " + auto1.getId());
+       System.out.println("El color es " + auto1.getColor());
+       
+       auto1.setId(1500);
+       auto1.setPatente("AB569PO");
+       auto1.setCan_puertas(3);
+       auto1.setColor("amarillo");
+       auto1.setCaja_manual(false);
+       
+       System.out.println("-------------------------------");
+       
+       
+       System.out.println("El nuevo valor de la id es " + auto1.getId());
+       System.out.println("El nuevo color es " + auto1.getColor());*/
+       
+       
+       
     }
-    
+        
 }
