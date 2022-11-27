@@ -1,12 +1,12 @@
 package ejemplopoo;
 
-public class Auto {
+public class Auto extends Vehiculo {
     //Atributos
-    int id;
-    String patente;
-    int can_puertas;
-    String color;
-    boolean caja_manual;
+    private int id;
+    private String patente;
+    private int can_puertas;
+    private String color;
+    private boolean caja_manual;
     
     //Contructores
 
@@ -20,6 +20,17 @@ public class Auto {
         this.color = color;
         this.caja_manual = caja_manual;
     }
+
+    public Auto(int id, String patente, int can_puertas, String color, boolean caja_manual, int num_registro, int cant_ruedas, String marca, String modelo) {
+        super(num_registro, cant_ruedas, marca, modelo);
+        this.id = id;
+        this.patente = patente;
+        this.can_puertas = can_puertas;
+        this.color = color;
+        this.caja_manual = caja_manual;
+    }
+
+   
     
     
     //Metodos

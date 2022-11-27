@@ -6,11 +6,27 @@ public class ejemplopoo {
     
     public static void main(String[] args) {
      
+        Vehiculo vehi = new Vehiculo (5687, 4,"Reault", "Indefinido");
         Auto auto1 = new Auto();
-        Auto auto2 = new Auto(1, "AA111JO", 5, "rojo", true);  
+        Auto auto2 = new Auto(1, "AA111JO", 5, "rojo", true, 65324, 4, "wolkswagen", "gold tren");  
+        Moto moto = new Moto(125, 15698, 2, "Yamaha", "ZR125");
+        Camion camion = new Camion (6, true, 698745, 6, "Mercedes", "Un modelo"); 
         
+      Vehiculo vector[] = new Vehiculo [4];
+        vector[0]= vehi;
+        vector[1]= moto;
+        vector [2]= auto2;
+        vector[3]= camion;
+        
+        for (int i=0; i<4; i++){
+             System.out.println("Registro numero " + i + vector [i].getMarca());
+        }
+          
+                
+                
+        /*
         System.out.println(auto2.toString());
-        System.out.println(auto1.toString());
+        System.out.println(auto1.toString());*/
         
           
        /*auto2.encender();
